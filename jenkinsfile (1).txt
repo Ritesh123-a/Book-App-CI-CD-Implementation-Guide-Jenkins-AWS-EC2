@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SERVER_IP = '54.147.209.78'
-        SSH_CREDENTIAL = 'node-app-key'
+        SSH_CREDENTIAL = 'node-pipeline-key'
         REPO_URL = 'https://github.com/Ritesh123-a/Book-App-CI-CD-Implementation-Guide-Jenkins-AWS-EC2.git'
         BRANCH = 'master'
         REMOTE_USER = 'ubuntu'
